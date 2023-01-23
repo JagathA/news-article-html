@@ -1,0 +1,93 @@
+body {
+  background-color: powderblue;
+  margin-left: 0.2rem; 
+  position:relative;
+}
+
+h1 {
+  color: rgb(9, 9, 10);
+  font-size: large;
+}
+
+h2 {
+  color: rgb(4, 4, 4);
+  font-size:medium
+}
+
+h3 {
+  color: rgb(3, 3, 3);
+  font-size:medium
+}
+
+
+p{
+  text-align: justify;
+  font-size:medium;
+  margin: 0.2rem;
+}
+
+.home {
+  text-align: center;
+  background: rgb(0, 132, 255);
+  padding: 0.2rem;
+  float: none;
+  position: relative;
+  left: 50%;
+
+}
+
+.nav_bar {
+  margin-bottom: 0.2rem; 
+
+}
+
+.nav_bar ul {
+  list-style: none;
+  position:absolute;
+  top:-1%;
+}
+
+
+.nav_bar li {
+  float: left; 
+  background: rgb(21, 255, 0);
+  text-align: center;
+  margin-left: 1rem;
+  margin-bottom: 0.2rem;
+}
+
+.nav_bar li:hover {
+  background: red;
+  opacity: 0.8;
+  color: white;
+}
+
+.pref {
+  border-width: 0.1rem;
+  border-color: darkblue;
+  position: relative;
+  border: 0.1rem solid;
+  top: 0rem;
+
+}
+
+.more{
+  margin-bottom: 1rem;
+}
+
+.more a{
+  margin-right: 1rem;
+}
+
+.footer_nav{
+margin-bottom: 5rem;
+border-top:  0.1rem solid;
+}
+
+.footer_nav a{
+  margin-right: 1rem;
+}
+
+.cpright{
+  margin-top: 1rem;
+}
